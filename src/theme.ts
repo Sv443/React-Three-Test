@@ -2,7 +2,6 @@ import {
   createTheme as createMuiTheme,
   responsiveFontSizes,
 } from "@mui/material";
-import "@fontsource/fira-sans";
 
 export const createTheme = ({ darkMode }: { darkMode: boolean }) =>
   responsiveFontSizes(

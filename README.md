@@ -1,5 +1,9 @@
 ### Main shit
-- https://threejs.org/docs/index.html
+- https://github.com/pmndrs/react-three-fiber
+- https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
+
+### Helpful shit
+- https://discoverthreejs.com/tips-and-tricks/
 
 ### Other cool shit
 - https://github.com/pmndrs/gltfjsx

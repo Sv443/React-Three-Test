@@ -2,16 +2,6 @@
   "name": "threejs",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.10.4",
-    "@emotion/styled": "^11.10.4",
-    "@mui/icons-material": "^5.10.9",
-    "@mui/material": "^5.10.9",
-    "@react-three/fiber": "^8.8.10",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "three": "^0.145.0"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -35,6 +25,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.9",
+    "@react-three/fiber": "^8.8.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.145.0"
   },
   "devDependencies": {
     "@import-meta-env/unplugin": "^0.2.0",

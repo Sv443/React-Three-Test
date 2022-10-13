@@ -1,5 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { StrictMode } from "react";
+import { WebGLRenderer } from "three";
 import { App } from "./App";
 import { AppDecorator } from "./AppDecorator";
 import { createTheme } from "./theme";
@@ -12,3 +13,11 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     </AppDecorator>
   </StrictMode>
 );
+
+const renderer = new WebGLRenderer();
+
+renderer.setSize(window.innerWidth, window.innerHeight);
+window.addEventListener("resize", () =>
+  renderer.setSize(window.innerWidth, window.innerHeight)
+);
+renderer.domElement;
